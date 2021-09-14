@@ -1,0 +1,23 @@
+.container {
+  align-items: center;
+  border-bottom: 1px solid var(--gray);
+  display: flex;
+  height: 100%;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.link {
+  color: var(--primary);
+  border-radius: 6px;
+  padding: 0.5rem;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.link:hover,
+.link--active {
+  color: var(--white);
+  background-color: var(--primary);
+  transition: all 0.2s ease;
+}

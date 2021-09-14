@@ -1,0 +1,39 @@
+.container {
+  border: 1px solid var(--gray);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem auto;
+  padding: 1rem;
+  width: 40%;
+}
+
+.field {
+  align-items: center;
+  display: flex;
+  margin-block: 1rem;
+}
+
+.field .label {
+  margin-right: 0.5rem;
+}
+
+.field .input {
+  background-color: var(--white);
+  border: 1px solid var(--gray);
+  border-radius: 6px;
+  line-height: 32px;
+  padding-block: 0.1rem;
+  padding-inline: 0.5rem;
+  width: 100%;
+}
+
+.button {
+  background-color: var(--primary);
+  border: none;
+  border-radius: 6px;
+  color: var(--white);
+  font-size: 1.2rem;
+  padding: 0.5rem 1.5rem;
+  width: 100%;
+}
